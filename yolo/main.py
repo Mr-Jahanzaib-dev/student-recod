@@ -25,7 +25,7 @@ while True:
             cv2.rectangle(frame,
                           (x1, y1),
                           (x2, y2),
-                          (0,255,0),
+                          (0,200,0),
                           2)
             cv2.putText(frame,
                         f"{label} {confidence:.2f}",
